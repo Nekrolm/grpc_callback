@@ -5,6 +5,9 @@
 #include <grpcpp/completion_queue.h>
 #include <grpcpp/server.h>
 
+#include <grpcpp/grpcpp.h>
+
+
 #include "call_finalizer.h"
 
 namespace grpc {

@@ -1,7 +1,7 @@
 #ifndef GREATING_CLIENT_H
 #define GREATING_CLIENT_H
 
-#include <protos/test.grpc.pb.h>
+#include "protos/test.grpc.pb.h"
 
 #include <grpcpp/completion_queue.h>
 

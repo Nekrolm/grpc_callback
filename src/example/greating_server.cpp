@@ -1,7 +1,5 @@
 #include "greating_server.h"
 
-#include <QDebug>
-
 #include <thread>
 
 #include <grpcpp/server_builder.h>

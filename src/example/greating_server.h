@@ -1,7 +1,7 @@
 #ifndef GREATING_SERVER_H
 #define GREATING_SERVER_H
 
-#include <protos/test.grpc.pb.h>
+#include "protos/test.grpc.pb.h"
 
 #include <grpcpp/server.h>
 

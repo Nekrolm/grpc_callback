@@ -2,9 +2,9 @@
 
 #include <grpcpp/channel.h>
 
-#include <QDebug>
 #include <functional>
 #include <thread>
+#include <memory>
 
 #include <grpc/simplified_async_callback_api.h>
 

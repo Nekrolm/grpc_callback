@@ -39,8 +39,8 @@ public:
 
 private:
 
-    static std::mutex queue_mutex_;
-    static std::set<std::shared_ptr<CallFinalizer>> queue_;
+    inline static std::mutex queue_mutex_;
+    inline static std::set<std::shared_ptr<CallFinalizer>> queue_;
 
     callback_t cmd_;
 };
