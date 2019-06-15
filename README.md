@@ -1,6 +1,6 @@
 Simple (almost header-only) callback-based wrapper over GRPC CompletionQueue API
 
-requires C++14
+requires C++17
 
 
 
